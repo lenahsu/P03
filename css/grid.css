@@ -1,0 +1,30 @@
+/*--------------1 COLUMN GRID--------------*/
+
+.flex-grid-one {
+    display: flex;
+    justify-content: center;
+}
+.flex-grid-one .col {
+    width: 100%;
+}
+
+/*--------------2 COLUMN GRID--------------*/
+
+.flex-grid-two {
+    display: flex;
+    align-content: center;
+}
+.flex-grid-two .col {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*--------------3 COLUMN GRID--------------*/
+
+.flex-grid-three {
+    display: flex;
+    justify-content: center;
+}
+.flex-grid-three .col {
+    width: 30%;
+    flex-wrap: wrap;
+}
