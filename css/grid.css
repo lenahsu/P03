@@ -27,4 +27,5 @@
 .flex-grid-three .col {
     width: 30%;
     flex-wrap: wrap;
+    margin-bottom:3rem;
 }
