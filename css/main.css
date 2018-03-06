@@ -1,3 +1,26 @@
+header{
+/*    position: sticky;*/
+    
+}
+
 body{
     font-family: 'Karla', sans-serif;  
+}
+
+main{
+/*    background: gray;*/
+    
+}
+
+footer{
+/*    position: sticky;*/
+    background: lightgrey;
+    height: 250px;
+    color:white;
+    padding: 1.5rem;
+}
+
+li {
+    list-style:none;
+    padding: 0.5rem;
 }
