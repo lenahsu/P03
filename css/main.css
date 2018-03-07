@@ -1,26 +1,166 @@
+/*--------------HEADER--------------*/
 header{
-/*    position: sticky;*/
+   position: fixed;
+    background: #FC5C48;
+    width: 100%;
+    color:white;
+    padding: 1.5rem;
+    left:0;
+    top:0;
+    height: 0.5rem;
+}
+
+header img{
+    position: absolute;
+
+}
+
+/*--------------NAV--------------*/
+.fixed-info nav{
+    padding-top: 3rem;
     
 }
+.fixed-info{
+    position:fixed;
+}
+
+
+nav ul{
+    border-left: solid 0.1rem;
+    text-transform:lowercase;
+}
+
+nav li{
+    list-style: none;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+
+a:link, 
+a:visited{
+       color: #FC5C48;
+    text-decoration: none; 
+}
+
+a:hover, 
+a:focus,
+a:active{
+
+    border-bottom: solid 0.1rem;
+    
+}
+
+/*--------------MAIN AND BODY--------------*/
 
 body{
     font-family: 'Karla', sans-serif;  
+    color:#FF5D48;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
 }
 
 main{
-/*    background: gray;*/
-    
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom:8rem;
+    text-align: left;
+    background: #FFF2EE;
 }
+
+main img{
+    width: 100%;
+}
+
+
+
+hr{
+    border: solid black;
+    border-width: 0.03rem;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    color: #FC5C48;
+    letter-spacing: 0.1rem;
+}
+
+h2{
+    color: #FC5C48;
+    font-size:1.2rem;
+    letter-spacing: 0.06rem;
+}
+
+h3{
+    margin-bottom: 0rem;
+    padding-bottom:0rem;
+    color: black;
+}
+
+h5{
+    text-transform: uppercase;
+    color:black;
+     margin-bottom: 0rem;
+    padding-bottom:0rem;
+    padding-top: 3rem;
+}
+
+/*--------------FOOTER--------------*/
 
 footer{
-/*    position: sticky;*/
-    background: lightgrey;
-    height: 250px;
+    position: fixed;
+    background: #FC5C48;
+    width: 100%;
     color:white;
-    padding: 1.5rem;
+    padding: 1rem;
+    padding-top:0.5rem;
+    left:0;
+    bottom:0;
+    height: 0.8rem;
+    line-height: 0;
+    text-align: right;
 }
 
-li {
+
+footer li {
     list-style:none;
-    padding: 0.5rem;
+    padding-right: 1rem;
+    display:inline;
+}
+
+footer ul{
+    margin-right:3rem;
+}
+
+/*------------STYLE GUIDE COLOUR PALETTE---------*/
+.c1{
+    background: #FFF2EE;
+    border: solid 0.1rem #FC5C48;
+}
+
+.c2{
+    background: white;
+    border: solid 0.1rem #FC5C48;
+}
+
+.c3{
+    color: white;
+     background: #FC5C48;
+    border: solid 0.1rem #FC5C48;
+}
+
+.c4{
+    color:white;
+    background: #0A21B2;
+    border: solid 0.1rem #0A21B2;
+
+}
+
+.c5{
+    color:white;
+    background: black;
+    border: solid 0.1rem black;
 }

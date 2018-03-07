@@ -2,10 +2,10 @@
 
 .flex-grid-one {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .flex-grid-one .col {
-    width: 100%;
+    width: 70%;
 }
 
 /*--------------2 COLUMN GRID--------------*/
@@ -14,18 +14,105 @@
     display: flex;
     align-content: center;
 }
+
 .flex-grid-two .col {
+    width: 40%;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+
+.flex-grid-two .col-one {
+    width: 30%;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.flex-grid-two .col-two{
+    width: 60%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 /*--------------3 COLUMN GRID--------------*/
 
 .flex-grid-three {
     display: flex;
-    justify-content: center;
 }
 .flex-grid-three .col {
     width: 30%;
     flex-wrap: wrap;
     margin-bottom:3rem;
 }
+
+/*--------------4 COLUMN GRID--------------*/
+.flex-grid-four {
+    display: flex;
+}
+.flex-grid-four .col {
+    width: 20%;
+    flex-wrap: wrap;
+    margin-bottom:3rem;
+}
+
+
+/*-----------FLEX BOX FOR STYLE GUIDE------------*/
+#flex-box-one{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#flex-box-one .box{
+    width: 95%;
+    height: 3rem;
+    flex-wrap: wrap;
+    border: solid 0.1rem #FC5C48
+
+}
+
+#flex-box-two{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#flex-box-two .box{
+    width: 45%;
+    height: 3rem;
+    flex-wrap: wrap;
+    border: solid 0.1rem #FC5C48
+
+}
+
+#flex-box-three{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#flex-box-three .box{
+    width: 29%;
+    height: 3rem;
+    flex-wrap: wrap;
+    border: solid 0.1rem #FC5C48;
+
+}
+
+#flex-box-five{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#flex-box-five .box{
+    width: 18%;
+    height: 3rem;
+    flex-wrap: wrap;
+
+}
+
