@@ -131,12 +131,26 @@ footer {
 
 footer li {
     list-style: none;
-    padding-right: 1rem;
     display: inline;
+/*    margin: 0.5rem;*/
 }
 
 footer ul {
     margin-right: 2rem;
+}
+
+footer a:link,
+footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+
+    border-bottom: solid white 0.1rem;
+
 }
 
 /*------------STYLE GUIDE COLOUR PALETTE---------*/
@@ -168,6 +182,16 @@ footer ul {
     color: white;
     background: black;
     border: solid 0.1rem black;
+}
+
+.c6{ /*--delete once photo is replaced--*/
+    color:white;
+    background: #0A21B2;
+    height: 25rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    
 }
 
 
