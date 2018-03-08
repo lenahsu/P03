@@ -1,166 +1,194 @@
 /*--------------HEADER--------------*/
-header{
-   position: fixed;
+
+header {
+    position: fixed;
     background: #FC5C48;
     width: 100%;
-    color:white;
+    color: white;
     padding: 1.5rem;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     height: 0.5rem;
 }
 
-header img{
+header img {
     position: absolute;
 
 }
 
 /*--------------NAV--------------*/
-.fixed-info nav{
+
+.fixed-info nav {
     padding-top: 3rem;
-    
+
 }
-.fixed-info{
-    position:fixed;
+
+.fixed-info {
+    position: fixed;
 }
 
 
-nav ul{
+nav ul {
     border-left: solid 0.1rem;
-    text-transform:lowercase;
+    text-transform: lowercase;
 }
 
-nav li{
+nav li {
     list-style: none;
     line-height: 1.5rem;
     font-size: 1rem;
 }
 
 
-a:link, 
-a:visited{
-       color: #FC5C48;
-    text-decoration: none; 
+a:link,
+a:visited {
+    color: #FC5C48;
+    text-decoration: none;
 }
 
-a:hover, 
+a:hover,
 a:focus,
-a:active{
+a:active {
 
     border-bottom: solid 0.1rem;
-    
+
 }
 
 /*--------------MAIN AND BODY--------------*/
 
-body{
-    font-family: 'Karla', sans-serif;  
-    color:#FF5D48;
+body {
+    font-family: 'Karla', sans-serif;
+    color: #FF5D48;
     font-size: 0.8rem;
     letter-spacing: 0.03rem;
 }
 
-main{
+main {
     padding: 2rem;
     padding-top: 5rem;
-    padding-bottom:8rem;
+    padding-bottom: 8rem;
     text-align: left;
     background: #FFF2EE;
 }
 
-main img{
+main img {
     width: 100%;
+/*    border: solid 0.2rem #FC5C48;*/
 }
 
 
 
-hr{
+hr {
     border: solid black;
     border-width: 0.03rem;
 }
 
-p{
-    color:black;
+p {
+    color: black;
 }
 
-h1{
+h1 {
     color: #FC5C48;
     letter-spacing: 0.1rem;
 }
 
-h2{
+h2 {
     color: #FC5C48;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     letter-spacing: 0.06rem;
 }
 
-h3{
+h3 {
     margin-bottom: 0rem;
-    padding-bottom:0rem;
+    padding-bottom: 0rem;
     color: black;
 }
 
-h5{
+h5 {
     text-transform: uppercase;
-    color:black;
-     margin-bottom: 0rem;
-    padding-bottom:0rem;
+    color: black;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
     padding-top: 3rem;
 }
 
 /*--------------FOOTER--------------*/
 
-footer{
+footer {
     position: fixed;
     background: #FC5C48;
     width: 100%;
-    color:white;
+    color: white;
     padding: 1rem;
-    padding-top:0.5rem;
-    left:0;
-    bottom:0;
-    height: 0.8rem;
+    padding-top: 0.5rem;
+    left: 0;
+    bottom: 0;
+    height: 2.4rem;
     line-height: 0;
     text-align: right;
 }
 
 
 footer li {
-    list-style:none;
+    list-style: none;
     padding-right: 1rem;
-    display:inline;
+    display: inline;
 }
 
-footer ul{
-    margin-right:3rem;
+footer ul {
+    margin-right: 2rem;
 }
 
 /*------------STYLE GUIDE COLOUR PALETTE---------*/
-.c1{
+
+.c1 {
     background: #FFF2EE;
     border: solid 0.1rem #FC5C48;
 }
 
-.c2{
+.c2 {
     background: white;
     border: solid 0.1rem #FC5C48;
 }
 
-.c3{
+.c3 {
     color: white;
-     background: #FC5C48;
+    background: #FC5C48;
     border: solid 0.1rem #FC5C48;
 }
 
-.c4{
-    color:white;
+.c4 {
+    color: white;
     background: #0A21B2;
     border: solid 0.1rem #0A21B2;
 
 }
 
-.c5{
-    color:white;
+.c5 {
+    color: white;
     background: black;
     border: solid 0.1rem black;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .fixed-info {
+        position: static;
+    }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+.fixed-info {
+    position: static;
+}
+
 }
