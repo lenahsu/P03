@@ -1,153 +1,276 @@
-/*--------------HEADER--------------*/
-
-header {
-    position: fixed;
-    background: #FC5C48;
-    width: 100%;
-    color: white;
-    padding: 1.5rem;
-    left: 0;
-    top: 0;
-    height: 0.5rem;
-}
-
-header img {
-    position: absolute;
-
-}
-
 /*--------------NAV--------------*/
-
-.fixed-info nav {
-    padding-top: 3rem;
-
-}
 
 .fixed-info {
     position: fixed;
 }
 
+nav .rectangle{
+    width:6rem;
+    height:7rem;
+    background:#f7f7d4;
+    position: absolute;
+    top: 7rem;
+    z-index: 0;
+    margin-left: 2rem;
+
+}
+
 
 nav ul {
-    border-left: solid 0.1rem;
+/*    border-left: solid 0.1rem;*/
     text-transform: lowercase;
+    position:absolute;
+        z-index: 2;
+    padding-top: 2.5rem;
 }
 
 nav li {
     list-style: none;
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-align: left;
+    letter-spacing: 0.03rem;
+    padding-left: 3rem;
 }
 
 
-a:link,
-a:visited {
-    color: #FC5C48;
+nav a:link,
+nav a:visited {
+    color: black;
     text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
+nav a:hover,
+nav a:focus,
+nav a:active {
 
     border-bottom: solid 0.1rem;
 
 }
 
-/*--------------MAIN AND BODY--------------*/
 
-body {
-    font-family: 'Karla', sans-serif;
-    color: #FF5D48;
-    font-size: 0.8rem;
-    letter-spacing: 0.03rem;
-}
-
-main {
-    padding: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 8rem;
-    text-align: left;
-    background: #FFF2EE;
-}
-
-main img {
-    width: 100%;
-/*    border: solid 0.2rem #FC5C48;*/
-}
+/*--------------NAME--------------*/
 
 
 
-hr {
-    border: solid black;
-    border-width: 0.03rem;
-}
-
-p {
-    line-height: 1.2rem;
-    color: black;
-    font-size: 0.9rem;
-}
-
-.description{
-/*    font-style: italic;*/
-    text-align: center;
-    width: 80%;
-    display: flex;
-}
-
-h1 {
-    color: #FC5C48;
+.name h1{
+    font-family: 'Arapey', serif;
+    text-transform: lowercase;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
+    text-align: center;
 }
 
-h2 {
+.name h2{
+    font-family: 'Arapey', serif;
+    font-size: 0.67rem;
+    letter-spacing: 0.3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.name h3{
+    font-family:'Arapey', serif;
+    font-size: 0.7rem;
+    padding-top: 0.89rem;
+    position: absolute;
+    z-index: 1;
+    letter-spacing: 0.15rem;
+    line-height: 1rem;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+.name {
+    line-height: 0.2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.contact h3{
+
+    font-family:'Arapey', serif;
+    font-size: 0.7rem;
+    padding-top: 0.89rem;
+    position: absolute;
+    z-index: 1;
+    letter-spacing: 0.15rem;
+    line-height: 1rem;
+    text-align: left;
+    text-transform:lowercase;
+    top: 30rem;
+
+}
+
+.contact a:link,
+.contact a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover,
+.contact a:focus,
+.contact a:active{
+
+    border-bottom: solid 0.1rem;
+}
+
+
+/*--------------MAIN--------------*/
+
+body{
+font-family: 'Karla', sans-serif;
+    margin-right: 10%;
+}
+
+
+.headings{
+    text-align: left;
+    line-height:1.5rem;
+    padding: 0rem;
+    padding-bottom: 3rem;
+
+}
+.headings h2{
+    padding-left: 0.2rem;
+    padding-top: 1.8rem;
+
+}
+
+.headings h3{
+margin:0rem;
+    line-height: 2.5rem;
+
+}
+
+.headings h4{
+ line-height: 1rem;
+    padding:0rem;
     padding-top: 1rem;
-    color: #FC5C48;
-    font-size: 1.2rem;
-    letter-spacing: 0.06rem;
 }
 
-h3 {
-    margin-bottom: 0rem;
-    padding-bottom: 2rem;
-    color: black;
-    
+
+h2{
+    font-family:'Arapey', serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.15rem;
+    line-height: 1rem;
+    text-align: left;
+    text-transform:lowercase;
+    top: 30rem;
 }
 
-h5 {
+h3{
+    font-size: 3rem;
     text-transform: uppercase;
-    color: black;
-    margin-bottom: 0rem;
-    padding-bottom: 0rem;
+}
+
+h4{
+    line-height: 0rem;
+    margin:0rem;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
     padding-top: 3rem;
 }
 
-strong{
-    color: #FC5C48;
+
+p{
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
 }
+
+hr{
+    left:
+    width: 70%;
+    text-align: left;
+}
+/*------------HYPERLINKS-----------*/
+.col-two a:link,
+.col-two a:visited{
+    color: black;
+}
+
+.col-two a:hover,
+.col-two a:focus,
+.col-two a:active{
+    text-decoration:none;
+}
+
+/*-----------STYLE GUIDE---------*/
+.styleguide-nav ul {
+/*    border-left: solid 0.1rem;*/
+    text-transform: lowercase;
+}
+
+.styleguide-nav li {
+    list-style: none;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: left;
+    letter-spacing: 0.03rem;
+}
+
+
+.styleguide-nav a:link,
+.styleguide-nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.styleguide-nav a:hover,
+.styleguide-nav a:focus,
+.styleguide-nav a:active {
+
+    border-bottom: solid 0.1rem;
+
+}
+
+.styleguide-headings{
+    text-align: left;
+    line-height:1.5rem;
+    padding: 0rem;
+
+
+}
+.styleguide-headings h2{
+    padding-left: 0.2rem;
+    padding-top: 1.8rem;
+
+}
+
+.styleguide-headings h3{
+    margin:0rem;
+
+}
+
 
 /*--------------FOOTER--------------*/
 
+/*
 footer {
+    font-family: "Arapey", serif;
+    text-transform: lowercase;
     position: fixed;
-    background: #FC5C48;
+    background:white;
     width: 100%;
-    color: white;
+    color: black;
     padding: 1rem;
     padding-top: 0.5rem;
     left: 0;
     bottom: 0;
-    height: 2.4rem;
+    height: 2rem;
     line-height: 0;
     text-align: right;
+    border-top: lightgray solid 0.01rem;
 }
 
 
 footer li {
     list-style: none;
     display: inline;
-/*    margin: 0.5rem;*/
+    margin: 0.5rem;
 }
 
 footer ul {
@@ -167,67 +290,33 @@ footer a:active {
     border-bottom: solid white 0.1rem;
 
 }
-
-/*------------STYLE GUIDE COLOUR PALETTE---------*/
-
-.c1 {
-    background: #FFF2EE;
-    border: solid 0.1rem #FC5C48;
-}
-
-.c2 {
-    background: white;
-    border: solid 0.1rem #FC5C48;
-}
-
-.c3 {
-    color: white;
-    background: #FC5C48;
-    border: solid 0.1rem #FC5C48;
-}
-
-.c4 {
-    color: white;
-    background: #0A21B2;
-    border: solid 0.1rem #0A21B2;
-
-}
-
-.c5 {
-    color: white;
-    background: black;
-    border: solid 0.1rem black;
-}
-
-.c6{ /*--delete once photo is replaced--*/
-    color:white;
-    background: #0A21B2;
-    height: 25rem;
-    width: 100%;
-    text-align: center;
-    padding-top: 2rem;
-    
-}
+*/
 
 
-/* 
+/*------------MEDIA QUERIES------*/
+
+/*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .fixed-info {
+/*
+    .fixed-info{
         position: static;
     }
+*/
 }
-/* 
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
 
-.fixed-info {
+/*
+.fixed-info{
     position: static;
 }
+*/
 
 }
