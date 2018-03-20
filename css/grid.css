@@ -72,7 +72,7 @@
     width: 90%;
     height: 3rem;
     flex-wrap: wrap;
-    border: solid 0.1rem #FC5C48
+    border: solid 0.01rem black
 
 }
 
@@ -87,7 +87,7 @@
     width: 45%;
     height: 3rem;
     flex-wrap: wrap;
-    border: solid 0.1rem #FC5C48
+    border: solid 0.01rem black
 
 }
 
@@ -102,21 +102,6 @@
     width: 30%;
     height: 3rem;
     flex-wrap: wrap;
-    border: solid 0.1rem #FC5C48;
+    border: solid 0.01rem black
 
 }
-
-#flex-box-five{
-    display:flex;
-    justify-content:center;
-    text-align: center;
-    padding: 0.5rem;
-}
-
-#flex-box-five .box{
-    width: 18%;
-    height: 3rem;
-    flex-wrap: wrap;
-
-}
-

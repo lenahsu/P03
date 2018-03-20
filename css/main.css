@@ -4,10 +4,10 @@
     position: fixed;
 }
 
-nav .rectangle{
-    width:6rem;
-    height:7rem;
-    background:#f7f7d4;
+nav .rectangle {
+    width: 6rem;
+    height: 7rem;
+    background: #f7f7d4;
     position: absolute;
     top: 7rem;
     z-index: 0;
@@ -17,10 +17,10 @@ nav .rectangle{
 
 
 nav ul {
-/*    border-left: solid 0.1rem;*/
+    /*    border-left: solid 0.1rem;*/
     text-transform: lowercase;
-    position:absolute;
-        z-index: 2;
+    position: absolute;
+    z-index: 2;
     padding-top: 2.5rem;
 }
 
@@ -51,9 +51,7 @@ nav a:active {
 
 /*--------------NAME--------------*/
 
-
-
-.name h1{
+.name h1 {
     font-family: 'Arapey', serif;
     text-transform: lowercase;
     font-size: 1.5rem;
@@ -61,7 +59,7 @@ nav a:active {
     text-align: center;
 }
 
-.name h2{
+.name h2 {
     font-family: 'Arapey', serif;
     font-size: 0.67rem;
     letter-spacing: 0.3rem;
@@ -69,8 +67,8 @@ nav a:active {
     text-align: center;
 }
 
-.name h3{
-    font-family:'Arapey', serif;
+.name h3 {
+    font-family: 'Arapey', serif;
     font-size: 0.7rem;
     padding-top: 0.89rem;
     position: absolute;
@@ -88,9 +86,9 @@ nav a:active {
 }
 
 
-.contact h3{
+.contact h3 {
 
-    font-family:'Arapey', serif;
+    font-family: 'Arapey', serif;
     font-size: 0.7rem;
     padding-top: 0.89rem;
     position: absolute;
@@ -98,20 +96,20 @@ nav a:active {
     letter-spacing: 0.15rem;
     line-height: 1rem;
     text-align: left;
-    text-transform:lowercase;
+    text-transform: lowercase;
     top: 30rem;
 
 }
 
 .contact a:link,
-.contact a:visited{
+.contact a:visited {
     color: black;
     text-decoration: none;
 }
 
 .contact a:hover,
 .contact a:focus,
-.contact a:active{
+.contact a:active {
 
     border-bottom: solid 0.1rem;
 }
@@ -119,56 +117,105 @@ nav a:active {
 
 /*--------------MAIN--------------*/
 
-body{
-font-family: 'Karla', sans-serif;
+body {
+    font-family: 'Karla', sans-serif;
+    /*margin-right: 10%;*/
+}
+
+main {
     margin-right: 10%;
 }
 
 
-.headings{
+.headings {
     text-align: left;
-    line-height:1.5rem;
+    line-height: 1.5rem;
     padding: 0rem;
     padding-bottom: 3rem;
 
 }
-.headings h2{
+
+.headings h2 {
     padding-left: 0.2rem;
     padding-top: 1.8rem;
 
 }
 
-.headings h3{
-margin:0rem;
+.headings h3 {
+    margin: 0rem;
     line-height: 2.5rem;
 
 }
 
-.headings h4{
- line-height: 1rem;
-    padding:0rem;
+.headings h4 {
+    line-height: 1rem;
+    padding: 0rem;
     padding-top: 1rem;
 }
 
+.headings img {
+    padding-top: 2rem;
+}
 
-h2{
-    font-family:'Arapey', serif;
+.designwork img {
+    opacity: 0.8;
+
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 5rem;
+    z-index: 4;
+}
+
+.container img:hover {
+    opacity: 0.2;
+
+}
+
+.img-headers h3{
+    position: absolute;
+
+    font-size: 2rem;
+    letter-spacing: 0.16rem;
+    z-index: 2;
+}
+
+.img-headers h4{
+
+    position:absolute;
+    z-index: 2;
+    padding-top:3.4rem;
+}
+
+.img-headers{ /*text center not working why*/
+    justify-content: center;
+    text-align: center;
+    line-height: 0rem;
+    z-index: 2;
+}
+
+
+
+
+h2 {
+    font-family: 'Arapey', serif;
     font-size: 0.7rem;
     letter-spacing: 0.15rem;
     line-height: 1rem;
     text-align: left;
-    text-transform:lowercase;
+    text-transform: lowercase;
     top: 30rem;
 }
 
-h3{
+h3 {
     font-size: 3rem;
     text-transform: uppercase;
 }
 
-h4{
+h4 {
     line-height: 0rem;
-    margin:0rem;
+    margin: 0rem;
     text-transform: uppercase;
     font-size: 0.5rem;
     letter-spacing: 0.1rem;
@@ -176,31 +223,33 @@ h4{
 }
 
 
-p{
+p {
     font-size: 0.8rem;
     letter-spacing: 0.02rem;
 }
 
-hr{
-    left:
-    width: 70%;
-    text-align: left;
+
+main img {
+    width: 100%;
 }
+
 /*------------HYPERLINKS-----------*/
+
 .col-two a:link,
-.col-two a:visited{
+.col-two a:visited {
     color: black;
 }
 
 .col-two a:hover,
 .col-two a:focus,
-.col-two a:active{
-    text-decoration:none;
+.col-two a:active {
+    text-decoration: none;
 }
 
 /*-----------STYLE GUIDE---------*/
+
 .styleguide-nav ul {
-/*    border-left: solid 0.1rem;*/
+    /*    border-left: solid 0.1rem;*/
     text-transform: lowercase;
 }
 
@@ -227,59 +276,75 @@ hr{
 
 }
 
-.styleguide-headings{
+.styleguide-headings {
     text-align: left;
-    line-height:1.5rem;
+    line-height: 1.5rem;
     padding: 0rem;
 
 
 }
-.styleguide-headings h2{
+
+.styleguide-headings h2 {
     padding-left: 0.2rem;
     padding-top: 1.8rem;
 
 }
 
-.styleguide-headings h3{
-    margin:0rem;
+.styleguide-headings h3 {
+    margin: 0rem;
 
 }
 
+.c1 {
+    background: #f7f7d4;
+}
 
-/*--------------FOOTER--------------*/
+.c2 {
+    background: #ffff;
+}
 
-/*
+.c3 {
+    color: white;
+    background: #000;
+
+}
+
+/*---------FOOTER---------*/
+
 footer {
-    font-family: "Arapey", serif;
-    text-transform: lowercase;
-    position: fixed;
-    background:white;
-    width: 100%;
-    color: black;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    left: 0;
-    bottom: 0;
-    height: 2rem;
-    line-height: 0;
-    text-align: right;
-    border-top: lightgray solid 0.01rem;
+    margin-right: 10%;
+    height: 5rem;
 }
 
+footer h2{
+    text-align: right;
+}
+
+footer h4{
+    padding-top: 1.8rem;
+    text-align: right;
+}
+footer ul {
+    /*    border-left: solid 0.1rem;*/
+    text-transform: lowercase;
+    position: absolute;
+    text-align: left;
+
+}
 
 footer li {
     list-style: none;
-    display: inline;
-    margin: 0.5rem;
+    font-size: 0.5rem;
+    display:inline;
+    padding-right: 2rem;
+    letter-spacing: 0.03rem;
+
 }
 
-footer ul {
-    margin-right: 2rem;
-}
 
 footer a:link,
 footer a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -287,10 +352,11 @@ footer a:hover,
 footer a:focus,
 footer a:active {
 
-    border-bottom: solid white 0.1rem;
+    border-bottom: solid 0.1rem;
 
 }
-*/
+
+
 
 
 /*------------MEDIA QUERIES------*/
@@ -301,22 +367,23 @@ footer a:active {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-/*
+    /*
     .fixed-info{
         position: static;
     }
 */
 }
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+
 @media (min-width: 320px) and (max-width: 480px) {
 
-/*
+    /*
 .fixed-info{
     position: static;
 }
 */
-
 }
