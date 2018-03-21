@@ -15,7 +15,7 @@
     align-content: center;
 }
 
-.flex-grid-two .col {
+.flex-grid-two .col-same{
     width: 40%;
     justify-content: center;
     flex-wrap: wrap;
@@ -38,13 +38,14 @@
     text-align: left;
     
 }
+
 /*--------------3 COLUMN GRID--------------*/
 
 .flex-grid-three {
     display: flex;
 }
 .flex-grid-three .col {
-    width: 30%;
+    width:30%;
     flex-wrap: wrap;
     margin-bottom:3rem;
 }
@@ -65,7 +66,7 @@
     display:flex;
     justify-content:center;
     text-align: center;
-    padding: 0.5rem;
+
 }
 
 #flex-box-one .box{
@@ -80,7 +81,6 @@
     display:flex;
     justify-content:center;
     text-align: center;
-    padding: 0.5rem;
 }
 
 #flex-box-two .box{
@@ -95,7 +95,7 @@
     display:flex;
     justify-content:center;
     text-align: center;
-    padding: 0.5rem;
+
 }
 
 #flex-box-three .box{
