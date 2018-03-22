@@ -2,7 +2,7 @@
 
 .flex-grid-one {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .flex-grid-one .col {
     width: 70%;
@@ -90,14 +90,14 @@
 
 }
 
-#flex-box-three{
+.flex-box-three{
     display:flex;
     justify-content:center;
     text-align: center;
 
 }
 
-#flex-box-three .box{
+.flex-box-three .box{
     width: 30%;
     height: 3rem;
     flex-wrap: wrap;

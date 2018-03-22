@@ -90,7 +90,7 @@
 
 
 /*--------STYLEGUIDE GRIDS-------*/
-.flex-box-one {
+#flex-box-one {
 
 
     display: -webkit-flex;
@@ -108,7 +108,7 @@
 }
 
 
-.flex-box-two {
+#flex-box-two {
 
 
     display: -webkit-flex;
