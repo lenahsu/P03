@@ -47,7 +47,7 @@
 .flex-grid-three .col {
     width:30%;
     flex-wrap: wrap;
-    margin-bottom:3rem;
+ 
 }
 
 /*--------------4 COLUMN GRID--------------*/
@@ -57,7 +57,6 @@
 .flex-grid-four .col {
     width: 20%;
     flex-wrap: wrap;
-    margin-bottom:3rem;
 }
 
 

@@ -215,8 +215,26 @@ main img {
 
 .overview p {
     text-align: center;
+
 }
 
+.overview {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+.icons {
+    justify-content: center;
+    text-align: center;
+}
+
+.icons img {
+    width: 30%;
+}
+
+#animation {
+    width: 80%;
+}
 
 /*-----------DESIGN IMAGES FOR INDEX--------*/
 
@@ -374,6 +392,27 @@ h5 a:active {
 
 }
 
+/*---------VIMEO LINKS----------*/
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 2rem;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*---------FOOTER---------*/
 
 footer {
@@ -427,24 +466,24 @@ footer a:active {
 
 
 /*------------MEDIA QUERIES------*/
-@media (min-width: 1064px){
+
+@media (min-width: 1064px) {
     /*-------INSTAGRAM--------*/
-#instagram{
-    padding-top:3rem;
-    padding-right: 10rem;
-    padding-bottom: 6rem;
-    border: solid 0.05rem white;
-}
+    #instagram {
+        padding-top: 3rem;
+        padding-right: 10rem;
+        padding-bottom: 6rem;
+        border: solid 0.05rem white;
+    }
 }
 
-@media (min-width: 651px) and (max-width: 674px){
-}
+@media (min-width: 651px) and (max-width: 674px) {}
 
 
 @media (min-width: 481px) and (max-width: 650px) {
 
-.fixed-info {
-        left:25%;
+    .fixed-info {
+        left: 25%;
         position: fixed;
     }
 
@@ -454,7 +493,7 @@ footer a:active {
         background: #f7f7d4;
         position: absolute;
         top: 10%;
-        left:75%;
+        left: 75%;
         z-index: 0;
         margin-left: 2rem;
 
@@ -466,12 +505,12 @@ footer a:active {
         text-transform: lowercase;
         position: absolute;
         z-index: 2;
-        padding:0rem;
+        padding: 0rem;
         top: 0rem;
         width: 100%;
-        margin:0rem;
+        margin: 0rem;
         left: 170%;
-     
+
     }
 
     nav li {
@@ -480,7 +519,7 @@ footer a:active {
         font-size: 0.8rem;
         text-align: left;
         letter-spacing: 0.03rem;
-        padding:0rem;
+        padding: 0rem;
     }
 
 
@@ -499,7 +538,7 @@ footer a:active {
     }
 
     .contact h3 {
-        display:none;
+        display: none;
     }
 
     .contact a:link,
@@ -514,68 +553,67 @@ footer a:active {
 
         border-bottom: solid 0.1rem;
     }
-    
-    
+
+
     /*--------------NAME--------------*/
+    .name h1 {
+        font-family: 'Arapey', serif;
+        text-transform: lowercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+    }
 
-.name h1 {
-    font-family: 'Arapey', serif;
-    text-transform: lowercase;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
-}
+    .name h2 {
+        font-family: 'Arapey', serif;
+        font-size: 0.67rem;
+        letter-spacing: 0.3rem;
+        font-style: italic;
+        text-align: center;
+    }
 
-.name h2 {
-    font-family: 'Arapey', serif;
-    font-size: 0.67rem;
-    letter-spacing: 0.3rem;
-    font-style: italic;
-    text-align: center;
-}
+    .name h3 {
+        width: 100%;
+        top: 0rem;
+        left: 100%;
+        padding: 0rem;
+        font-family: 'Arapey', serif;
+        font-size: 0.7rem;
+        position: absolute;
+        z-index: 1;
+        letter-spacing: 0.15rem;
+        line-height: 1rem;
+        text-align: left;
+        text-transform: lowercase;
+    }
 
-.name h3 {
-    width:100%;
-    top: 0rem;
-    left: 100%;
-    padding: 0rem;
-    font-family: 'Arapey', serif;
-    font-size: 0.7rem;
-    position: absolute;
-    z-index: 1;
-    letter-spacing: 0.15rem;
-    line-height: 1rem;
-    text-align: left;
-    text-transform: lowercase;
-}
+    .name {
+        margin: 1rem;
+        padding: 0rem;
+        line-height: 0.2rem;
+        text-align: center;
+    }
 
-.name {
-    margin:1rem;
-    padding:0rem;
-    line-height: 0.2rem;
-    text-align: center;
-}
-    
     main {
-    margin-right: 0.5rem;
-   
-    margin-left: 0.5rem;
-}
-    
-    .headings{
+        margin-right: 0.5rem;
+
+        margin-left: 0.5rem;
+    }
+
+    .headings {
         padding-top: 4rem;
     }
-    
-    header{
-        background:white;
-        width:100%;
+
+    header {
+        background: white;
+        width: 100%;
         height: 6.5rem;
         position: fixed;
         border-bottom: solid 0.01rem lightgray;
-        
+
     }
 
-    
+
 }
 
 
@@ -593,7 +631,7 @@ footer a:active {
         background: #f7f7d4;
         position: absolute;
         top: 10%;
-        left:75%;
+        left: 75%;
         z-index: 0;
         margin-left: 2rem;
 
@@ -605,12 +643,12 @@ footer a:active {
         text-transform: lowercase;
         position: absolute;
         z-index: 2;
-        padding:0rem;
+        padding: 0rem;
         top: 0rem;
         width: 100%;
-        margin:0rem;
+        margin: 0rem;
         left: 170%;
-     
+
     }
 
     nav li {
@@ -619,7 +657,7 @@ footer a:active {
         font-size: 0.8rem;
         text-align: left;
         letter-spacing: 0.03rem;
-        padding:0rem;
+        padding: 0rem;
     }
 
 
@@ -638,7 +676,7 @@ footer a:active {
     }
 
     .contact h3 {
-        display:none;
+        display: none;
     }
 
     .contact a:link,
@@ -653,65 +691,64 @@ footer a:active {
 
         border-bottom: solid 0.1rem;
     }
-    
+
     /*--------------NAME--------------*/
+    .name h1 {
+        font-family: 'Arapey', serif;
+        text-transform: lowercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+    }
 
-.name h1 {
-    font-family: 'Arapey', serif;
-    text-transform: lowercase;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
-}
+    .name h2 {
+        font-family: 'Arapey', serif;
+        font-size: 0.67rem;
+        letter-spacing: 0.3rem;
+        font-style: italic;
+        text-align: center;
+    }
 
-.name h2 {
-    font-family: 'Arapey', serif;
-    font-size: 0.67rem;
-    letter-spacing: 0.3rem;
-    font-style: italic;
-    text-align: center;
-}
+    .name h3 {
+        width: 100%;
+        top: 0rem;
+        left: 100%;
+        padding: 0rem;
+        font-family: 'Arapey', serif;
+        font-size: 0.7rem;
+        position: absolute;
+        z-index: 1;
+        letter-spacing: 0.15rem;
+        line-height: 1rem;
+        text-align: left;
+        text-transform: lowercase;
+    }
 
-.name h3 {
-    width:100%;
-    top: 0rem;
-    left: 100%;
-    padding: 0rem;
-    font-family: 'Arapey', serif;
-    font-size: 0.7rem;
-    position: absolute;
-    z-index: 1;
-    letter-spacing: 0.15rem;
-    line-height: 1rem;
-    text-align: left;
-    text-transform: lowercase;
-}
+    .name {
+        margin: 1rem;
+        padding: 0rem;
+        line-height: 0.2rem;
+        text-align: center;
+    }
 
-.name {
-    margin:1rem;
-    padding:0rem;
-    line-height: 0.2rem;
-    text-align: center;
-}
-    
     main {
-    margin-right: 0.5rem;
-   
-    margin-left: 0.5rem;
-}
-    
-    .headings{
+        margin-right: 0.5rem;
+
+        margin-left: 0.5rem;
+    }
+
+    .headings {
         padding-top: 4rem;
     }
-    
-    header{
-        background:white;
-        width:100%;
+
+    header {
+        background: white;
+        width: 100%;
         height: 6.5rem;
         position: fixed;
         border-bottom: solid 0.01rem lightgray;
-        
+
     }
-    
+
 
 }
