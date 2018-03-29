@@ -114,6 +114,19 @@ nav a:active {
     text-align: center;
 }
 
+.name a:link,
+.name a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.name a:hover,
+.name a:focus,
+.name a:active{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
