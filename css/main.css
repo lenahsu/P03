@@ -164,12 +164,14 @@ h4 {
     padding-top: 3rem;
 }
 
+
 h5 {
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     margin-bottom: 0.5rem;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.06rem;
     line-height: 0.9rem;
 }
+
 
 
 p {
@@ -185,7 +187,6 @@ main img {
 }
 
 .desc h4 {
-    padding-top: 3rem;
     padding-bottom: 1rem;
 }
 
@@ -242,12 +243,43 @@ main img {
 }
 
 .icons img {
-    width: 30%;
+    width: 50%;
 }
 
-#animation {
-    width: 80%;
+.col-same .icons img{
+    width: 10%;
 }
+
+#animation{
+    transform: scale(0.7);
+}
+
+.contain{
+    border: solid 0.01rem black;
+    padding: 3rem;
+    margin-top: 3rem;
+    margin-bottom:5rem;
+}
+
+.contain h4{
+    margin:0rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.desc li{
+    list-style: decimal-leading-zero;
+    line-height: 1rem;
+    padding:1rem;
+}
+
+.citations{
+    font-size: 0.07rem;w
+}
+
+
 
 /*-----------DESIGN IMAGES FOR INDEX--------*/
 
@@ -407,6 +439,8 @@ h5 a:active {
 
 /*---------VIMEO LINKS----------*/
 
+
+/*
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -427,6 +461,7 @@ h5 a:active {
     height: 100%;
     border:none;
 }
+*/
 
 
 /*--------SNAPWIDGET-----*/
@@ -635,6 +670,10 @@ footer a:active {
         border-bottom: solid 0.01rem lightgray;
 
     }
+    
+    .contain{
+        padding:2rem;
+    }
 
 
 }
@@ -772,6 +811,11 @@ footer a:active {
         border-bottom: solid 0.01rem lightgray;
 
     }
+    
+    .contain{
+    border: solid 0.01rem black;
+    padding: 1.3rem;
+}
 
 
 }
