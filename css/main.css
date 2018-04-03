@@ -48,7 +48,7 @@ nav a:active {
 
 }
 
-.contact h3 {
+.contact h2 {
 
     font-family: 'Arapey', serif;
     font-size: 0.7rem;
@@ -91,15 +91,6 @@ nav a:active {
 
 .name h2 {
     font-family: 'Arapey', serif;
-    font-size: 0.67rem;
-    letter-spacing: 0.3rem;
-    font-style: italic;
-    text-align: center;
-    text-transform: none;
-}
-
-.name h3 {
-    font-family: 'Arapey', serif;
     font-size: 0.7rem;
     padding-top: 0.89rem;
     position: absolute;
@@ -111,6 +102,16 @@ nav a:active {
     font-weight: 700;
 }
 
+.name h4 {
+    font-family: 'Arapey', serif;
+    font-size: 0.67rem;
+    letter-spacing: 0.3rem;
+    font-style: italic;
+    text-align: center;
+    text-transform: none;
+}
+
+
 .name {
     line-height: 0.2rem;
     padding: 2rem;
@@ -118,14 +119,14 @@ nav a:active {
 }
 
 .name a:link,
-.name a:visited{
+.name a:visited {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .name a:hover,
 .name a:focus,
-.name a:active{
+.name a:active {
     text-decoration: none;
     color: black;
 }
@@ -145,7 +146,23 @@ main {
     margin-right: 5%;
 }
 
+
 h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 0rem;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.1rem;
+    padding-top: 3rem;
+    font-weight: 700;
+}
+
+h4 {
     font-family: 'Arapey', serif;
     font-size: 0.7rem;
     letter-spacing: 0.15rem;
@@ -153,22 +170,6 @@ h2 {
     text-align: left;
     text-transform: lowercase;
     top: 30rem;
-}
-
-h3 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-h4 {
-    margin: 0rem;
-    text-transform: uppercase;
-    font-size: 0.65rem;
-    letter-spacing: 0.1rem;
-    padding-top: 3rem;
-    color: red;
-    font-weight: 700;
 }
 
 
@@ -179,7 +180,6 @@ h5 {
     line-height: 0.9rem;
     font-weight: 400;
 }
-
 
 
 p {
@@ -194,7 +194,7 @@ main img {
     width: 100%;
 }
 
-.desc h4 {
+.desc h3 {
     padding-bottom: 1rem;
 }
 
@@ -203,29 +203,23 @@ main img {
 }
 
 
+/*------HEADINGS--------*/
 
 .headings {
     text-align: left;
     line-height: 1.5rem;
     padding: 0rem;
     padding-bottom: 3rem;
-
 }
 
 .headings h2 {
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-
-}
-
-.headings h3 {
     margin: 0rem;
     line-height: 2.5rem;
     font-weight: 400;
 
 }
 
-.headings h4 {
+.headings h3 {
     line-height: 1rem;
     padding: 0rem;
     padding-top: 1rem;
@@ -233,10 +227,21 @@ main img {
     font-weight: 400;
 }
 
+
+.headings h4 {
+    padding-left: 0.2rem;
+    padding-top: 1.8rem;
+    margin-bottom: 0.3rem;
+
+}
+
 .headings img {
     margin-top: 1rem;
     padding-top: 1rem;
 }
+
+
+/*------OVERVIEW-------*/
 
 .overview p {
     text-align: center;
@@ -257,40 +262,47 @@ main img {
     width: 50%;
 }
 
-.col-same .icons img{
+.col-same .icons img {
     width: 10%;
 }
 
-#animation{
+/*--------POMPOM-------*/
+
+#animation {
     transform: scale(0.7);
 }
 
-.contain{
+/*--------PROCESS STYLING--------*/
+
+.contain {
     border: solid 0.01rem black;
     padding: 3rem;
     margin-top: 3rem;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
 }
 
-.contain h4{
-    margin:0rem;
+.contain h3 {
+    margin: 0rem;
     padding-top: 0rem;
     padding-bottom: 2rem;
-    
+
 }
 
 
-.desc li{
+.desc li {
     list-style: decimal-leading-zero;
     line-height: 1rem;
-    padding:1rem;
+    padding: 1rem;
 }
 
-.citations{
-    font-size: 0.07rem;w
+.citations {
+    font-size: 0.07rem;
 }
 
 
+.video {
+    padding-top: 2rem;
+}
 
 /*-----------DESIGN IMAGES FOR INDEX--------*/
 
@@ -344,7 +356,7 @@ h5 a:active {
 
 /*------QUALIFICATIONS------*/
 
-.qualifications h4 {
+.qualifications h3 {
     padding-top: 0rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
@@ -401,13 +413,13 @@ h5 a:active {
 }
 
 .styleguide-headings h2 {
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
+    margin: 0rem;
 
 }
 
-.styleguide-headings h3 {
-    margin: 0rem;
+.styleguide-headings h4 {
+    padding-left: 0.2rem;
+    padding-top: 1.8rem;
 
 }
 
@@ -426,7 +438,6 @@ h5 a:active {
 }
 
 /*---------VIMEO LINKS----------*/
-
 
 /*
 .embed-container {
@@ -451,14 +462,14 @@ h5 a:active {
 }
 */
 
-
 /*--------SNAPWIDGET-----*/
-.snapwidget-widget{
-    border:none; 
-overflow:hidden; 
-width:100%
-    
+
+.snapwidget-widget {
+    border: none;
+    overflow: hidden;
+    width: 100%
 }
+
 /*---------FOOTER---------*/
 
 footer {
@@ -466,14 +477,16 @@ footer {
     height: 5rem;
 }
 
-footer h2 {
+footer h3 {
     text-align: right;
+    color: black;
 }
 
-footer h4 {
+footer h3 {
     padding-top: 1.27rem;
     text-align: right;
 }
+
 
 footer ul {
     /*    border-left: solid 0.1rem;*/
@@ -583,7 +596,7 @@ footer a:active {
 
     }
 
-    .contact h3 {
+    .contact h2 {
         display: none;
     }
 
@@ -611,14 +624,6 @@ footer a:active {
     }
 
     .name h2 {
-        font-family: 'Arapey', serif;
-        font-size: 0.67rem;
-        letter-spacing: 0.3rem;
-        font-style: italic;
-        text-align: center;
-    }
-
-    .name h3 {
         width: 100%;
         top: 0rem;
         left: 100%;
@@ -631,6 +636,14 @@ footer a:active {
         line-height: 1rem;
         text-align: left;
         text-transform: lowercase;
+    }
+
+    .name h4 {
+        font-family: 'Arapey', serif;
+        font-size: 0.67rem;
+        letter-spacing: 0.3rem;
+        font-style: italic;
+        text-align: center;
     }
 
     .name {
@@ -658,9 +671,9 @@ footer a:active {
         border-bottom: solid 0.01rem lightgray;
 
     }
-    
-    .contain{
-        padding:2rem;
+
+    .contain {
+        padding: 2rem;
     }
 
 
@@ -725,7 +738,7 @@ footer a:active {
 
     }
 
-    .contact h3 {
+    .contact h2 {
         display: none;
     }
 
@@ -751,15 +764,8 @@ footer a:active {
         text-align: center;
     }
 
-    .name h2 {
-        font-family: 'Arapey', serif;
-        font-size: 0.67rem;
-        letter-spacing: 0.3rem;
-        font-style: italic;
-        text-align: center;
-    }
 
-    .name h3 {
+    .name h2 {
         width: 100%;
         top: 0rem;
         left: 100%;
@@ -773,6 +779,15 @@ footer a:active {
         text-align: left;
         text-transform: lowercase;
     }
+
+    .name h4 {
+        font-family: 'Arapey', serif;
+        font-size: 0.67rem;
+        letter-spacing: 0.3rem;
+        font-style: italic;
+        text-align: center;
+    }
+
 
     .name {
         margin: 1rem;
@@ -799,11 +814,11 @@ footer a:active {
         border-bottom: solid 0.01rem lightgray;
 
     }
-    
-    .contain{
-    border: solid 0.01rem black;
-    padding: 1.3rem;
-}
+
+    .contain {
+        border: solid 0.01rem black;
+        padding: 1.3rem;
+    }
 
 
 }
