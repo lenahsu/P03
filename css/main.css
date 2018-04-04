@@ -160,6 +160,7 @@ h3 {
     letter-spacing: 0.1rem;
     padding-top: 3rem;
     font-weight: 700;
+    color: black;
 }
 
 h4 {
@@ -187,6 +188,7 @@ p {
     letter-spacing: 0.02rem;
     line-height: 1.2rem;
     padding-bottom: 1rem;
+    color: darkslategray;
 }
 
 
@@ -272,6 +274,7 @@ main img {
     transform: scale(0.7);
 }
 
+
 /*--------PROCESS STYLING--------*/
 
 .contain {
@@ -293,6 +296,7 @@ main img {
     list-style: decimal-leading-zero;
     line-height: 1rem;
     padding: 1rem;
+    color: darkslategray;
 }
 
 .citations {
@@ -303,6 +307,44 @@ main img {
 .video {
     padding-top: 2rem;
 }
+
+
+/*---------PAGE BUTTONS-------*/
+
+
+button {
+    background: none;
+    border: none;
+    padding:1rem;  
+}
+
+button img{
+width: 1.2rem;
+
+}
+
+.prev{
+    float: left;
+    text-transform:lowercase;
+
+}
+
+.home{
+    text-transform:lowercase;
+  float:left;
+}
+
+.top{
+    float: right;
+    text-transform:lowercase;
+}
+
+
+.next{
+    float:right;
+    text-transform:lowercase;
+}
+
 
 /*-----------DESIGN IMAGES FOR INDEX--------*/
 
@@ -352,6 +394,7 @@ h5 a:active {
     color: black;
 
 }
+
 
 
 /*------QUALIFICATIONS------*/
@@ -406,7 +449,7 @@ h5 a:active {
 
 .styleguide-headings {
     text-align: left;
-    line-height: 1.5rem;
+    line-height: 3rem;
     padding: 0rem;
 
 
@@ -417,9 +460,15 @@ h5 a:active {
 
 }
 
+.styleguide-headings h3 {
+    padding:0rem;
+    margin:0rem;
+
+}
+
 .styleguide-headings h4 {
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
+    padding: 0rem;
+    margin: 0rem;
 
 }
 
@@ -437,30 +486,6 @@ h5 a:active {
 
 }
 
-/*---------VIMEO LINKS----------*/
-
-/*
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 2rem;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border:none;
-}
-*/
 
 /*--------SNAPWIDGET-----*/
 
@@ -485,6 +510,7 @@ footer h3 {
 footer h3 {
     padding-top: 1.27rem;
     text-align: right;
+    padding-bottom: 1rem;
 }
 
 
@@ -565,20 +591,21 @@ footer a:active {
         position: absolute;
         z-index: 2;
         padding: 0rem;
-        top: 0rem;
-        width: 100%;
+        width: 200%;
         margin: 0rem;
-        left: 170%;
+        text-align: center;
 
     }
 
     nav li {
-        list-style: none;
+          list-style: none;
         line-height: 1.5rem;
         font-size: 0.8rem;
-        text-align: left;
+        text-align: center;
         letter-spacing: 0.03rem;
-        padding: 0rem;
+        padding-left: 1.2rem;
+        padding-right:1.2rem;
+        display:inline;
     }
 
 
@@ -666,7 +693,7 @@ footer a:active {
     header {
         background: white;
         width: 100%;
-        height: 6.5rem;
+        height: 7rem;
         position: fixed;
         border-bottom: solid 0.01rem lightgray;
 
@@ -704,13 +731,11 @@ footer a:active {
     nav ul {
         /*    border-left: solid 0.1rem;*/
         text-transform: lowercase;
-        position: absolute;
         z-index: 2;
         padding: 0rem;
-        top: 0rem;
-        width: 100%;
         margin: 0rem;
-        left: 170%;
+        text-align: center;
+        width: 200%;
 
     }
 
@@ -718,9 +743,11 @@ footer a:active {
         list-style: none;
         line-height: 1.5rem;
         font-size: 0.8rem;
-        text-align: left;
+        text-align: center;
         letter-spacing: 0.03rem;
-        padding: 0rem;
+        padding-left: 1.2rem;
+        padding-right:1.2rem;
+        display:inline;
     }
 
 
@@ -809,7 +836,7 @@ footer a:active {
     header {
         background: white;
         width: 100%;
-        height: 6.5rem;
+        height: 7rem;
         position: fixed;
         border-bottom: solid 0.01rem lightgray;
 
