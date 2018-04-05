@@ -291,6 +291,10 @@ main img {
 
 }
 
+.center {
+    text-align: center;
+}
+
 
 .desc li {
     list-style: decimal-leading-zero;
@@ -301,6 +305,7 @@ main img {
 
 .citations {
     font-size: 0.07rem;
+    padding-bottom:0rem;
 }
 
 
