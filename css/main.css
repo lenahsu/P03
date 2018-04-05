@@ -567,7 +567,141 @@ footer a:active {
     }
 }
 
-@media (min-width: 651px) and (max-width: 674px) {}
+@media (min-width: 651px) and (max-width: 674px) {
+.fixed-info {
+        left: 30%;
+        position: fixed;
+    }
+
+    nav .rectangle {
+        width: 80%;
+        height: 80%;
+        background: #f7f7d4;
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        z-index: 0;
+        margin-left: 2rem;
+
+    }
+
+
+    nav ul {
+        /*    border-left: solid 0.1rem;*/
+        text-transform: lowercase;
+        position: absolute;
+        z-index: 2;
+        padding: 0rem;
+        width: 200%;
+        margin: 0rem;
+        text-align: center;
+
+    }
+
+    nav li {
+          list-style: none;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        text-align: center;
+        letter-spacing: 0.03rem;
+        padding-left: 1.2rem;
+        padding-right:1.2rem;
+        display:inline;
+    }
+
+
+    nav a:link,
+    nav a:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus,
+    nav a:active {
+
+        border-bottom: solid 0.1rem;
+
+    }
+
+    .contact h2 {
+        display: none;
+    }
+
+    .contact a:link,
+    .contact a:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    .contact a:hover,
+    .contact a:focus,
+    .contact a:active {
+
+        border-bottom: solid 0.1rem;
+    }
+
+
+    /*--------------NAME--------------*/
+    .name h1 {
+        font-family: 'Arapey', serif;
+        text-transform: lowercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+    }
+
+    .name h2 {
+        width: 100%;
+        top: 0rem;
+        left: 100%;
+        padding: 0rem;
+        font-family: 'Arapey', serif;
+        font-size: 0.7rem;
+        position: absolute;
+        z-index: 1;
+        letter-spacing: 0.15rem;
+        line-height: 1rem;
+        text-align: left;
+        text-transform: lowercase;
+    }
+
+    .name h4 {
+        font-family: 'Arapey', serif;
+        font-size: 0.67rem;
+        letter-spacing: 0.3rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .name {
+        margin: 1rem;
+        padding: 0rem;
+        line-height: 0.2rem;
+        text-align: center;
+    }
+
+    main {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .headings {
+        padding-top: 6rem;
+    }
+
+    header {
+        background: white;
+        width: 100%;
+        height: 7rem;
+        position: fixed;
+        border-bottom: solid 0.01rem lightgray;
+
+    }
+    
+}
+
+
 
 
 @media (min-width: 481px) and (max-width: 650px) {
@@ -838,6 +972,7 @@ footer a:active {
         padding-top: 4rem;
     }
 
+
     header {
         background: white;
         width: 100%;
@@ -850,6 +985,7 @@ footer a:active {
     .contain {
         border: solid 0.01rem black;
         padding: 1.3rem;
+        margin:0.5rem;
     }
 
 
